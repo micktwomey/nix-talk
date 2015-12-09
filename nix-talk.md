@@ -11,17 +11,16 @@
 
 ---
 
+![fit](images/Nix Talk - 1.jpg)
+
+---
+
 # [fit] Problem? 
 # [fit] What problem?
 
 ---
 
-# Reproducible Builds
-# [fit] Not just today, but next year
-
-^ Sometimes in some lines of work you have to debug something very precisely
-^ It's also nice to know things don't change under your feet
-^ e.g. mac -> linux
+![fit](images/Nix Talk - 2.jpg)
 
 ---
 
@@ -38,6 +37,10 @@
 
 ---
 
+![fit](images/Nix Talk - 3.jpg)
+
+---
+
 # [fit] Docker!
 
 ```dockerfile
@@ -48,6 +51,19 @@ CMD /usr/games/fortune -a | cowsay
 
 # [fit] Will it be the same if I run this tomorrow?
 # [fit] What did I just build anyway?
+
+---
+
+![fit](images/Nix Talk - 4.jpg)
+
+---
+
+# Reproducible Builds
+# [fit] Not just today, but next year
+
+^ Sometimes in some lines of work you have to debug something very precisely
+^ It's also nice to know things don't change under your feet
+^ e.g. mac -> linux
 
 ---
 
@@ -180,6 +196,14 @@ Change build options? New hash!
 
 ---
 
+![fit](images/Nix Talk - 5.jpg)
+
+---
+
+![fit](images/Nix Talk - 6.jpg)
+
+---
+
 # [fit] Not Just Packages
 
 # [fit] NixOS
@@ -188,24 +212,9 @@ Change build options? New hash!
 
 ---
 
-- Why did I get interested in Nix?
-    + reproducible builds
-    + every good company invests in a powerful build system, "secret sauce"
-    + makes development less of a chore too
-    + One reason I got interested in Docker
+# [fit] Links
 
-- Nix is confusing and hard to understand though :(
-    + Not going to sugar coat it, had to work to understand it (and I still don't)
-    + They're working on this, https://www.youtube.com/watch?v=PjAmr22FZts&list=PL_IxoDz1Nq2Y7mIxMZ28mVtjRbbnlVdmy&index=3
-
-- http://sandervanderburg.blogspot.ie/2014/07/backing-up-nix-and-hydra-builds.html
-    + shows how to backup builds
-    + backs up sources too
-        * you should be able to reproduce your build even 5 years down the road
-
-- wouldn't it be cool if we could manage the entire OS this way?
-    + Oh, wait, there's NixOS :)
-
-- Why not Docker?
-    + Not mutually exclusive
-    + Docker punts on builds and reproducible builds (not its job)
+# [fit] https://github.com/micktwomey/nix-talk/
+# [fit] https://nixos.org/nix/
+# [fit] https://nixos.org/nixpkgs/manual/
+# [fit] https://nixos.org/nix/manual/
